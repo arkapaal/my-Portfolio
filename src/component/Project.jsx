@@ -13,13 +13,13 @@ export const Projects = () => {
   const projects = [
     {
       title: "my-Portflio",
-      techstack: "html, css, javascript,react....",
-      link:"https://react-bootstrap.netlify.app/docs/components/cards/",
+      techstack: "react,tailwind.",
+      link:"https://github.com/arkapaal/my-Portfolio",
       imgUrl:Photo1,
     },
     {
       title: "News-App",
-      techstack: "react,api....",
+      techstack: "react,api..",
       link:"https://github.com/arkapaal/news-channel-using-news-api",
       imgUrl:Photo2,
     },
