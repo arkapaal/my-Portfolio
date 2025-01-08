@@ -365,6 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .item li{
   list-style: none;
+  white-space: nowrap;
 }
 /* .skill-slider .item img {
   width: 50%;

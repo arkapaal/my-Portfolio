@@ -53,7 +53,7 @@ export const Skills=()=>{
                                     <li>Javascript</li>
                                     <li>React.js</li>
                                     <li>Tailwind</li>
-                                    <li>Bootstarp Framework</li>
+                                    <li>Bootstrap Framework</li>
                             
                             </Carousel.Item> 
                             <Carousel.Item className='item'>
