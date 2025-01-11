@@ -29,7 +29,7 @@ export const Skills=()=>{
         }
     };
     return (
-        <section>
+        <section id="skills">
             <Container>
                 <Row className='skill-container'>
                     <Col>
@@ -37,7 +37,7 @@ export const Skills=()=>{
                         <h2>
                             My Skills
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iusto porro vitae cum veniam nulla esse, consectetur rerum voluptate illum pariatur harum architecto perferendis saepe libero suscipit? Ea, et cupiditate.</p>
+                        <p>"Proficient in frontend and backend development with expertise in HTML, CSS, JavaScript, React, and Tailwind CSS. Skilled in APIs, databases, DSA, and OOP, I create efficient, scalable, and user-centric web solutions."</p>
                         <Carousel responsive={responsive} infinite={true}  className="skill-slider">
                             <Carousel.Item className='item'>
                                 <h5>Programming Language</h5>
@@ -56,16 +56,17 @@ export const Skills=()=>{
                                     <li>Bootstrap Framework</li>
                             
                             </Carousel.Item> 
-                            <Carousel.Item className='item'>
+                            {/* <Carousel.Item className='item'>
                                 <h5>Backend Development</h5>
+
+                            </Carousel.Item> */}
+                            <Carousel.Item className='item'>
+                                <h5>Other Technical Skill</h5>
+                                <li>Git</li>
                                 <li>API</li>
                                 <li>DBMS</li>
                                 <li>DSA</li>
                                 <li>OOPj</li>
-                            </Carousel.Item>
-                            <Carousel.Item className='item'>
-                                <h5>Other Technical Skill</h5>
-                                <li>Git</li>
 
                             </Carousel.Item>
                             <Carousel.Item className='item'>

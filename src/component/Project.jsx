@@ -37,7 +37,7 @@ export const Projects = () => {
       <Container>
         
         <h2>Projects</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>"Showcasing a collection of diverse projects that highlight my expertise in web development, problem-solving, and innovative solutions. Each project reflects a commitment to quality, functionality, and user experience."</p>
         <Row className="cards" id="projects-card">
             {
                 projects.map((projects,index)=>{

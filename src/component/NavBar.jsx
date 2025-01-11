@@ -16,12 +16,14 @@ export const NavBar=()=>{
                 setScrolled(false);
             }
         }
+
         window.addEventListener("scroll",onScroll);
-        return ()=>window.removeEventListener("scroll",onScroll)
+        return ()=>window.removeEventListener("scroll",onscroll)
     },[])
     const onUpdateActiveLink =(value) =>{
         setActiveLink(value);
     }
+
     return (
       <div>
         <Navbar expand="lg" className={scrolled?"scrolled":""}>
@@ -42,7 +44,7 @@ export const NavBar=()=>{
                     <a href="https://www.linkedin.com/in/arka-pal-b4a672285/"><img src={NavIcon1} alt="LinkedIN" /></a>
                     <a href="https://www.instagram.com/coff.260/"><img src={NavIcon3} alt="Instagram" /></a>
                 </div>
-                <button className="contactus" onClick={()=> console.log('connect')}>Lets Connect</button>
+                <button className="contactus" onClick={()=>onUpdateActiveLink('connect')}>Lets Connect</button>
             </span>
             </Navbar.Collapse>
         </Container>
