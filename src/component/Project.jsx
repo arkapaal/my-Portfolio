@@ -12,7 +12,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "my-Portflio",
+      title: "my-Portfolio",
       techstack: "react,tailwind.",
       link:"https://github.com/arkapaal/my-Portfolio",
       imgUrl:Photo1,
