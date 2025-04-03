@@ -4,29 +4,29 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import colorSharp2 from "../color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import Photo1 from "../Project-img1.png";
-import Photo2 from "../Project-img2.png";
-import Photo3 from "../Project-img3.png";
+import Photo1 from "../Airplane.jpg";
+import Photo2 from "../Burger.jpg";
+import Photo3 from "../Dino world.jpg";
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "my-Portfolio",
-      techstack: "react,tailwind.",
-      link:"https://github.com/arkapaal/my-Portfolio",
+      title: "SKYE",
+      techstack: "Personalised-Flight Booking website ",
+      link:"https://www.figma.com/design/g6ulU2FBV6qk2O8SQxfAth/SKYE?node-id=0-1&t=8PWB63pcOX25DkCj-1",
       imgUrl:Photo1,
     },
     {
-      title: "News-App",
-      techstack: "react,api..",
-      link:"https://github.com/arkapaal/news-channel-using-news-api",
+      title: "Burger Singh",
+      techstack: "Burger-Singh book your burger",
+      link:"https://www.figma.com/design/qopQNiUatmODQisOncSNQB/burger-singh?node-id=0-1&t=i2hIoNhZQtkiF3jz-1",
       imgUrl:Photo2,
     },
     {
-        title: "Amazon-Clone",
-        techstack: "html,css..",
-        link:"https://github.com/arkapaal/Amazon-clone",
+        title: "Dino World",
+        techstack: "Encyclopidea Explore Dino Now",
+        link:"https://www.figma.com/design/CI0jDrQxpuQUu8FmBrMN7A/Dino-World?node-id=0-1&t=fxDzOWDo2O0oJ4Ri-1",
         imgUrl:Photo3,
     },
  
@@ -37,7 +37,7 @@ export const Projects = () => {
       <Container>
         
         <h2>Projects</h2>
-        <p>"Showcasing a collection of diverse projects that highlight my expertise in web development, problem-solving, and innovative solutions. Each project reflects a commitment to quality, functionality, and user experience."</p>
+        <p>"Showcasing a collection of diverse projects that highlight my expertise in user oriented development, problem-solving, and innovative solutions. Each project reflects a commitment to quality, functionality, and user interface."</p>
         <Row className="cards" id="projects-card">
             {
                 projects.map((projects,index)=>{

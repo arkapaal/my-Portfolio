@@ -35,7 +35,7 @@ export const Skills=()=>{
                     <Col>
                     <div className='skill-bx'>
                         <h2>
-                            My Skills
+                                MY SKILLS
                         </h2>
                         <p>"Proficient in frontend and backend development with expertise in HTML, CSS, JavaScript, React, and Tailwind CSS. Skilled in APIs, databases, DSA, and OOP, I create efficient, scalable, and user-centric web solutions."</p>
                         <Carousel responsive={responsive} infinite={true}  className="skill-slider">
@@ -43,17 +43,14 @@ export const Skills=()=>{
                                 <h5>Programming Language</h5>
                                     <li>C/C++</li>
                                     <li>Java</li>
-                                    <li>Python</li>
-                            
+                                                                
                             </Carousel.Item>
                             <Carousel.Item className='item'>
                                 <h5>Frontend Development</h5>
                                     <li>Html</li>
                                     <li>Css</li>
                                     <li>Javascript</li>
-                                    <li>React.js</li>
-                                    <li>Tailwind</li>
-                                    <li>Bootstrap Framework</li>
+                                    <li>UI/UX</li>
                             
                             </Carousel.Item> 
                             {/* <Carousel.Item className='item'>
@@ -62,8 +59,6 @@ export const Skills=()=>{
                             </Carousel.Item> */}
                             <Carousel.Item className='item'>
                                 <h5>Other Technical Skill</h5>
-                                <li>Git</li>
-                                <li>API</li>
                                 <li>DBMS</li>
                                 <li>DSA</li>
                                 <li>OOPj</li>
@@ -71,18 +66,17 @@ export const Skills=()=>{
                             </Carousel.Item>
                             <Carousel.Item className='item'>
                                 <h5>Soft Skills</h5>
-
                                 <li>Communication</li>
                                 <li>Team Work</li>
                                 <li>Problem-solving</li>
                                 <li>Time Management</li>
-
                             </Carousel.Item>
                             <Carousel.Item className='item'>
                                 <h5>Tools and Framework</h5>
-                                <li>Visual Studio Code</li>
-                                <li>React.js</li>
-                                <li>Bootstrap</li>
+                                <li>Figma </li>
+                                <li>WIX studio</li>
+                                <li>Relume</li>
+                                <li>Prototyping</li>
                             </Carousel.Item>
                         </Carousel>
                     </div>

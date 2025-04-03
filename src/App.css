@@ -30,11 +30,12 @@ html {
 body {
   font-weight: 400;
   overflow-x: hidden;
-  position: relative;
+  /* position: relative; */
   background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, li, button, ul {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   line-height: normal;
   text-decoration: none;
 }
@@ -94,6 +95,7 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -232,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url('banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -385,12 +387,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 }
 .project h2 {
+  
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -441,12 +444,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 } */
 
 .cards{
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   padding-bottom: 10px;
-
 }
 .card:hover {
   
@@ -457,7 +460,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .cards img{
   
   width: 100%;
+  
   height: 300px;
+  display: flex;
   object-fit: cover;
 
 }
@@ -467,6 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
 
 /* .cards:hover {
   transform: scale(1.05);
@@ -504,6 +510,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
+  
   position: absolute;
   text-align: center;
   top: 65%;
@@ -512,18 +519,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+  
 }
 .proj-txtx h4 {
+
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 .proj-txtx span {
+  
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -542,10 +553,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 0 200px 0;
+  padding: 200px 0 200px 0;
 }
 .contact img {
   width: 92%;
+  position:relative;
+  
 }
 .contact h2 {
 	font-size: 45px;
